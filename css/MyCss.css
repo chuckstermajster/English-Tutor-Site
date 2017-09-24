@@ -1,3 +1,120 @@
-p {
+
+
+body {
+    background-color: black !important;
+}
+
+#body-container {
+    background-color: #F7F0D5; 
+   width: 60%;
+   min-height: 350px;
+   padding-top: 10px;
+   padding-bottom: 100px;
+   display: flex;
+   margin-bottom: 40px;
+   flex-direction: column;
+   
+      
    
 }
+
+/* FIRST SOLUTION */
+#instructions {font: 15px 'AmericanTypewriter', Cambria, Georgia;  color: #282625; margin: 0 auto; margin-top: 15px; margin-bottom: 50px;   width: 80%; line-height: 30px}
+
+.header {
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    top: -2px;
+    font-weight: 800;
+    flex: 1;
+}
+.paper {
+   
+padding:4px 55px 27px;
+word-wrap: break-word;
+text-align: justify;
+
+min-height: 300px;
+width: 100%;
+position: relative;
+border: 3px solid rgb(20, 20, 20);
+background: white;
+background: -webkit-linear-gradient(top, rgb(20, 20, 20) 2%, white 8%) 0 57px;
+background: -moz-linear-gradient(top, rgb(20, 20, 20) 2%, white 8%) 0 57px;
+background: linear-gradient(top, hsl(0, 0%, 8%) 2%, white 8%) 0 57px;
+-webkit-background-size: 100% 30px;
+-moz-background-size: 100% 30px;
+-ms-background-size: 100% 30px;
+background-size: 100% 30px;
+box-sizing: border-box;
+}
+.paper::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    bottom: 0px;
+    left: 0px; 
+     
+    
+}
+#right-margin {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 30px;
+    height: 100%;
+    background-color:  white;
+}
+
+
+
+/* SECOND SOLUTION
+
+.first-line {
+    background-color: white;
+    align-items: center;
+    font-family: Cambria;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.line {
+    background-color: white;
+    align-items: center;
+    font-family: Cambria;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.line::after{
+    content: '';
+    border-bottom: 1px solid black;
+    display: block;
+    width: 100%;
+    padding: 1px;
+}
+
+
+.first-line::after {
+    content: '';
+    border-bottom: 1px solid black;
+    display: block;
+    width: 100%;
+    padding: 1px;
+
+}
+
+.lines {
+    
+}
+
+*/
+
+
+
