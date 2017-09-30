@@ -1,17 +1,27 @@
 
 
-body {
-    background-color: black !important;
-    margin-top: 20px !important;
-    
+body {  background-color: black !important;
+    margin-top: 20px !important; 
     
 }
+
+.main-header {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 50px;
+    border-bottom: 2px solid black;
+    width: 75%;
+    display: block;
+    
+}
+    
+
+
+
 
 li {
     display: inline-block;
 }
-
-
 
 #body-container {
    position: relative;
@@ -21,7 +31,7 @@ li {
    padding-top: 10px;
    padding-bottom: 100px;
    margin-bottom: 40px;
-   z-index: 0;
+   
    
 }
 
@@ -34,11 +44,7 @@ li {
     right: 0; 
     top: 0;
     font-size: 18px;
-    text-align: center;
-    
-       
-    
-    
+    text-align: center; 
     
 }
 
@@ -47,10 +53,7 @@ ul {
     padding: 0;
     margin: 0;
     left: 40px;
-    position: relative;
-    
-    
-    
+    position: relative;   
 }
 
 .first {
@@ -60,6 +63,7 @@ ul {
     width: 40px;
     text-align: bottom;
     padding: 4px;
+    min-height: 80px;
     
     
     
@@ -193,6 +197,23 @@ box-sizing: border-box;
     left: 0;   
 }
 
+.contact-container {
+    position: relative;
+    background: violet;
+    min-height: 600px;
+    width: 80%;
+    padding: 4px 55px 27px;
+}
+.contact-navbar{
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: absolute;    
+    right: 0; 
+    top: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     #instructions {
         font-size: 10px;
@@ -229,86 +250,8 @@ box-sizing: border-box;
 
     #body-container {
         width: 80%;
+        padding: 4px 55px 27px;
+        word-wrap: break-word;
+        text-align: justify;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* SECOND SOLUTION
-
-.first-line {
-    background-color: white;
-    align-items: center;
-    font-family: Cambria;
-    font-size: 24px;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    
-}
-.line {
-    background-color: white;
-    align-items: center;
-    font-family: Cambria;
-    font-size: 17px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.line::after{
-    content: '';
-    border-bottom: 1px solid black;
-    display: block;
-    width: 100%;
-    padding: 1px;
-}
-
-
-.first-line::after {
-    content: '';
-    border-bottom: 1px solid black;
-    display: block;
-    width: 100%;
-    padding: 1px;
-
-}
-
-.lines {
-    
-}
-
-*/
-
-
-
