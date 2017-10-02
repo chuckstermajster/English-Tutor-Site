@@ -12,42 +12,57 @@
 
 <body>
 
-    
+
     <div class="container">
 
-            
+
 
         <div class="container" id="body-container">
-                <h2 class="main-header">Kontakt</h2>
-                <nav class="my-navbar">
-                        <ul>
-                            <li  class="first" id="active"><a href="Index.html">Aktualności</a></li>
-                            <li id="second"><a>O mnie</a></li>
-                            <li id="third"><a href="Kontakt">Kontakt</a></li>              
-                        </ul>
-                </nav>
+            <h2 class="main-header">Kontakt</h2>
+            <nav class="my-navbar">
+                <ul>
+                    <li class="first"><a href="Index.html">Aktualności</a></li>
+                    <li class="second"><a href="About.html">O mnie</a></li>
+                    <li class="third active"><a href="Kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
 
-                <div class="contact-container" id="instructions">
+            <div class="contact-container" id="instructions">
 
-                        <div class="contact-navbar">
-                                <ul>
-                                    <li  class="first" id="active"><a href="#">Coś</a></li>
-                                    
-                                    <li id="third"><a href="#">Coś 2</a></li>              
-                                </ul>
-                            </div>
+                <div class="contact-navbar">
+                    <ul>
+                        <li class="tablink second active"  onclick="loadTab(event, 'first-tab')" ><a href="#">Coś</a></li>
 
-
-                            <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=chuckstermajster%40gmail.com&amp;color=%2329527A&amp;ctz=Europe%2FWarsaw" style="border-width:0" width="200" height="300" frameborder="0" scrolling="no"></iframe>
+                        <li class="tablink third" onclick="loadTab(event, 'second-tab')"><a href="#">Coś 2</a></li>
+                    </ul>
                 </div>
-        </div>
-          
+
+                <div id="first-tab" class="tabcontent">
+
+                <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=chuckstermajster%40gmail.com&amp;color=%2329527A&amp;ctz=Europe%2FWarsaw"
+                    style="border-width:0" width="200" height="300" frameborder="0" scrolling="no"></iframe>
+
+                </div>
+
+                <div id="second-tab" class="tabcontent">
+
+                    jlkfjdslkfjsdkfjklsdjlfksdjklfsdjlkfd
+               
+                </div>
+
+
+            </div>
         </div>
 
-    </div> 
+    </div>
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/loadtab.js"></script>
+
+    
 
 </body>
 

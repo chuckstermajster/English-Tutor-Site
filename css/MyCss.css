@@ -76,14 +76,11 @@ ul {
     background: goldenrod;
 }
 
-#active {
-    background-color: gray;
-}
-.active:hover{
-    background-color: gray;
-}
 
-#second{
+
+
+
+.second{
     background: #7C7CAF;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -93,7 +90,7 @@ ul {
     min-height: 100px;
     
 }
-#third {
+.third {
     background: #EEA2EE;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
@@ -113,6 +110,15 @@ ul {
 #second:hover {
     color: gainsboro;
     background: goldenrod;
+}
+
+.active {
+    background: gold;
+}
+
+#second-tab {
+    display: none;
+    
 }
 
 
